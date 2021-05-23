@@ -1,0 +1,267 @@
+* {
+  margin: 0px;
+  
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+
+.padre {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  
+}
+
+  .header {
+    background: url(../img/header.jpg);
+    padding: 30px;
+  
+    font-family:'Roboto', sans-serif;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 40rem;
+  }
+    .encabezado {
+      
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      height:10rem;
+    }
+      .logo {
+        flex: 9 1 auto;
+        text-align: start;
+        
+      }
+      img.logo{
+        height: 150px;
+        width: 300px;
+      }
+
+      .logo a{
+        color: #fff;
+        font-size: 30px;
+      }
+      .logo a:hover{
+        color: #343434;
+      }
+        
+      .navigation {
+        flex: 1  1 auto;
+        text-align: end;
+      }
+      .navigation a{
+        color: #fff;
+        font-size: 20px;
+        padding:0 10px;
+        letter-spacing: 2px;
+      }
+      .navigation a:hover{
+        color: #343434;
+      }
+      
+    .texto {
+      display: flex;
+      color: #fff;
+      flex-flow: column nowrap;
+      margin-top: 20rem;
+    }
+.principal{
+  display: flex;
+  justify-content: center
+}
+      
+  .section {
+    width: 70%;
+    text-align: center;
+    background: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family:'Roboto', sans-serif;
+    align-items: stretch;
+    
+    }
+
+    .titulobenefecios{
+      text-align: center;
+      justify-content: center;
+      padding: 5px;
+    }
+    .beneficios {
+      background: #fff;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: flex-start;
+    }
+      .beneficio {
+        flex:1 1 10%;
+        display: flex;
+        flex-flow: column nowrap;
+      }
+      .icono{
+        flex:1 1 auto;
+        text-align: center;
+      }
+      img.icono{
+        height: 75px;
+        width: 150px;
+      }
+
+      .titulo_beneficio{
+        text-align: center;
+        justify-content: center;
+      }
+
+      .descripcion_beneficio{
+        text-align: center;
+        justify-content: center;
+      }
+    .tituloarticulos{
+      text-align: center;
+      justify-content: center;
+    }
+
+    .articulos {
+      background: #fff;
+      display:flex;
+      flex-flow: row wrap;
+      
+    }
+      .article {
+        background-color:#e4eee0e7;
+            display:flex;
+            flex-flow: column nowrap;
+            flex: 1 1 10%;     
+            justify-content: center;  
+            margin: 10px;
+            
+      }
+        .imagen_articulo{
+          flex:1 1 auto;
+          text-align: center;
+        }
+        img.imagen_articulo{
+          width: 100%;
+        }
+        .titulo_articulo{
+          text-align: justify;
+          padding-top: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        .descripcion_articulo{
+          text-align: justify;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        .precio{
+          text-align: justify;
+          color: rgb(17, 172, 17);
+          padding-left: 10px;
+          
+        }
+        .servicios{
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content:space-evenly;
+          padding: 20px;
+        }
+        .button{
+          display: flex;
+          justify-content: center;
+          padding: 20px;
+      }
+          .button button{
+              background-color:rgb(203, 137, 15);
+              
+              width:80%;
+              height: 50px;
+              font-family:'Roboto Condensed', sans-serif;
+              font-size: 20px;
+              color:white;
+              
+          }
+          .button2{
+            display: flex;
+            justify-content: start;
+            justify-content: flex-end;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+            .button2 button{
+                background-color:rgb(24, 101, 27);
+                position: end;
+                width:15%;
+                height: 50px;
+                font-family:'Roboto Condensed', sans-serif;
+                font-size: 20px;
+                color:white;
+                
+            }
+
+   
+  .section1 {
+    height: 300px;
+    background: url(../img/encuentra.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+    .texto_de_section1 {
+      display: flex;
+      color: #fff;
+      flex-flow: column nowrap;
+      margin-top: 5rem;
+      padding-left: 10%;
+    }
+     
+    .button3{
+      display: flex;
+      justify-content: LE;
+    
+  }
+      .button3 button{
+          background-color:rgb(203, 137, 15);
+          
+          width:150px;
+          height: 50px;
+          font-family:'Roboto Condensed', sans-serif;
+          font-size: 20px;
+          color:white;
+      }
+  
+  .footer{
+    background: rgb(48, 49, 48);
+    display: flex;
+    color: #fff;
+    height: 50px;
+    flex-flow: row nowrap;
+    padding: 2px;
+    align-items: flex-start
+  }
+  
+  .navegacion1{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 10px;
+    padding: 2px;
+    margin: 5px;
+    flex: 9 1 auto;
+  }
+
+  .item{
+    padding: 5px;
+  }
+  .autor{
+    height: 10px;
+    padding: 5px;
+    flex: 1 1 auto;
+  }
